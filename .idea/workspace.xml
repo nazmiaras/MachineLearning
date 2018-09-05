@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ff1bcba6-2ee9-45e4-a829-3d1fcee7df14" name="Default Changelist" comment="" />
+    <list default="true" id="ff1bcba6-2ee9-45e4-a829-3d1fcee7df14" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apriori/apriori.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apriori/apriori_kod.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apriori/sepet.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ucb/Ads_CTR_Optimisation.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ucb/random.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ucb/ucb.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,29 +78,53 @@
     <session id="-197741035">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="348" />
+          <entry key="py" value="1925" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="348" />
+          <entry key="Python" value="1925" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="11" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="11" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/bolutleme/kmeans.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ucb/random.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
-              <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+              <caret line="22" column="10" lean-forward="true" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ucb/ucb.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -113,6 +146,9 @@
       <find>olc</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -125,6 +161,10 @@
         <option value="$PROJECT_DIR$/siniflandirma/rfc.py" />
         <option value="$PROJECT_DIR$/siniflandirma/odev_iris.py" />
         <option value="$PROJECT_DIR$/bolutleme/kmeans.py" />
+        <option value="$PROJECT_DIR$/apriori/apriori.py" />
+        <option value="$PROJECT_DIR$/apriori/apriori_kod.py" />
+        <option value="$PROJECT_DIR$/ucb/ucb.py" />
+        <option value="$PROJECT_DIR$/ucb/random.py" />
       </list>
     </option>
   </component>
@@ -134,16 +174,19 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1920" />
-    <option name="height" value="1006" />
+    <option name="height" value="1080" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -154,13 +197,27 @@
             <path>
               <item name="MachineLearning" type="b2602c69:ProjectViewProjectNode" />
               <item name="MachineLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="3 Polinom Regresyon" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MachineLearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MachineLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="apriori" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MachineLearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MachineLearning" type="462c0819:PsiDirectoryNode" />
               <item name="bolutleme" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MachineLearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MachineLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="ucb" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -171,12 +228,15 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/bolutleme" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\spayk\Desktop\MachineLearning\siniflandirma" />
       <recent name="C:\Users\spayk\Desktop\MachineLearning\3 Polinom Regresyon" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ucb" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/apriori" />
+      <recent name="$PROJECT_DIR$/bolutleme" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -191,7 +251,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.kmeans">
+  <component name="RunManager" selected="Python.ucb">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="MachineLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -214,20 +274,36 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="dtc" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="apriori" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MachineLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/siniflandirma" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/siniflandirma/dtc.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/apriori.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="apriori_kod" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MachineLearning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/apriori" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/apriori/apriori_kod.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -240,6 +316,9 @@
       <module name="MachineLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bolutleme" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -255,20 +334,17 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="nb" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="random" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MachineLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/siniflandirma" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ucb" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/siniflandirma/nb.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ucb/random.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -277,42 +353,17 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="odev_iris" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ucb" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MachineLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/siniflandirma" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ucb" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/siniflandirma/odev_iris.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="rfc" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="MachineLearning" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/siniflandirma" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/siniflandirma/rfc.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ucb/ucb.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -322,19 +373,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.nb" />
-      <item itemvalue="Python.dtc" />
-      <item itemvalue="Python.rfc" />
-      <item itemvalue="Python.odev_iris" />
       <item itemvalue="Python.kmeans" />
+      <item itemvalue="Python.apriori_kod" />
+      <item itemvalue="Python.apriori" />
+      <item itemvalue="Python.random" />
+      <item itemvalue="Python.ucb" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ucb" />
+        <item itemvalue="Python.random" />
+        <item itemvalue="Python.apriori_kod" />
+        <item itemvalue="Python.apriori" />
         <item itemvalue="Python.kmeans" />
-        <item itemvalue="Python.odev_iris" />
-        <item itemvalue="Python.rfc" />
-        <item itemvalue="Python.dtc" />
-        <item itemvalue="Python.nb" />
       </list>
     </recent_temporary>
   </component>
@@ -361,10 +412,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="1006" extended-state="6" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49918434" visible="true" weight="0.2662407" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49918434" visible="true" weight="0.26890308" />
       <window_info id="Structure" order="1" sideWeight="0.5008157" side_tool="true" weight="0.2662407" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -375,15 +426,15 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5005325" side_tool="true" weight="0.32932165" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.329718" />
-      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.49946752" weight="0.32932165" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="12" sideWeight="0.49946752" visible="true" weight="0.2980198" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" sideWeight="0.4976744" weight="0.27795526" />
+      <window_info anchor="right" id="SciView" order="3" sideWeight="0.4976744" visible="true" weight="0.27795526" />
       <window_info anchor="right" id="Database" order="4" weight="0.32995737" />
       <window_info anchor="right" x="0" y="0" width="434" height="896" id="Documentation" order="5" sideWeight="0.5023256" side_tool="true" weight="0.2782516" />
     </layout>
@@ -493,10 +544,65 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/apriori.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apyori.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="23" column="18" lean-forward="true" selection-end-line="441" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/bolutleme/kmeans.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+          <caret line="22" column="10" lean-forward="true" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apriori/apriori_kod.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apriori/apriori.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="536">
+          <caret line="441" lean-forward="true" selection-start-line="441" selection-end-line="441" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/UCB/ucb.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ucb/random.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="10" lean-forward="true" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ucb/ucb.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
