@@ -40,7 +40,7 @@ print(r2_score(Y,lin_reg.predict(X)))
 
 #polynomial regression
 #doğrusal olmayan (nonlinear model) oluşturma
-
+from sklearn.preprocessing import PolynomialFeatures
 # 4. dereceden polinom
 poly_reg3 = PolynomialFeatures(degree = 4)
 x_poly3 = poly_reg3.fit_transform(X)
@@ -112,9 +112,6 @@ print("------------------")
 
 print("Linear Regression R2 Value:")
 print(r2_score(Y,lin_reg.predict(X)))
-
-print("Polynomial Regression 2 R2 Value:")
-print(r2_score(Y,lin_reg2.predict(x_poly)))
 
 
 print("Polynomial Regression 4 R2 Value:")
